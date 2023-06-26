@@ -1,0 +1,174 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 9rem;
+  background-color: #fff;
+  width: 1440px;
+  height: 96px;
+  width: 100%;
+  max-width: 1440px;
+  height: 96px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  z-index: 999;
+}
+.nav-header {
+  width: 50%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #eb5757;
+  font-weight: 700;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links :nth-child(1) a {
+  color: #de3d6d;
+}
+
+.nav-links .login-link {
+  background: linear-gradient(101.31deg, #de3d6d 42.62%, #f5844c 104.19%);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+  border: 1px solid #eb5757;
+}
+
+.login-link:hover {
+  background: #fff;
+  border: 1px solid #eb5757;
+}
+
+.nav-links a:hover {
+  color: #de3d6d;
+}
+
+/* ============================ Header1 CSS =================================  */
+
+.header-container1 {
+  background-color: rgba(246, 241, 241, 0.717);
+  width: 82.6vw;
+  height: 128px;
+  margin-left: 17.35vw;
+  padding: 0;
+  position: fixed;
+  z-index: 7;
+  top: 0;
+}
+
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-text1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.bell-icon {
+  color: #eb5757;
+  width: 3rem;
+  height: 3rem;
+  background-color: #feebef;
+  padding: 0.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-icons1 {
+  display: flex;
+  width: 9rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-icon img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.avatar-icon {
+  background-color: #feebef;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eb5757;
+  cursor: pointer;
+}
+
+/*****======== Modal ============****/
+.modal-logout {
+  position: relative;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.modal-content-logout {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content-logout p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.modal-content-logout button {
+  padding: 8px 16px;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal-content-logout button:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}

@@ -1,0 +1,193 @@
+.info {
+  color: #03435f;
+  width: 705px;
+  height: 48px;
+  font-size: 40px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  left: 30%;
+  padding-bottom: 30px;
+}
+.text1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 10px;
+  text-align: center;
+}
+.text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px 40px;
+  gap: 24px;
+  color: #012a4a;
+}
+.card {
+  width: 374px;
+  height: 218px;
+  background: rgba(0, 0, 0, 0.04);
+  color: black;
+}
+.button {
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5%;
+}
+.button:hover {
+  background-color: rgb(214, 207, 207);
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  transform: translateX(-1rem) translateY(-0.2rem);
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.carousel-card-container {
+  width: 374px;
+  height: 218px;
+  background: rgba(0, 0, 0, 0.04);
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  padding: 2rem 1rem;
+  margin-left: 1rem;
+}
+
+.carousel-card-container center {
+  text-align: left;
+}
+
+.carousel-button {
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5%;
+  /* transition: background-color 1s ease-in-out; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+
+}
+
+.carousel-button:hover {
+  background-color: rgb(214, 207, 207);
+}
+
+.carousel-icon {
+  width: 30px;
+  height: 30px;
+  /* transform: translateX(-1rem) translateY(-0.2rem); */
+  /* margin-left: 1.5rem; */
+}
+
+.card-active {
+  transform: scale(1.1);
+}
+
+.landingPageHeader {
+  color: #03435f;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.landingPageParagraph {
+  width: 416px;
+  height: 48px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #03435f;
+}
+
+.carousel-info {
+  color: #03435f;
+  width: 705px;
+  height: 48px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.carousel-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px 40px;
+  gap: 24px;
+  color: #012a4a;
+  overflow: hidden;
+}
+
+/* .carousel-button {
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5%;
+  transition: background-color 0.3s ease-in-out;
+} */
+
+/* .carousel-button:hover {
+  background-color: rgb(214, 207, 207);
+} */
+
+/* .carousel-icon {
+  width: 30px;
+  height: 30px;
+  transform: translateX(-1rem) translateY(-0.2rem);
+} */
+
+.card-active {
+  transform: scale(1.1);
+}
+
+.landingPageHeader {
+  color: #03435f;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 2rem;
+}
+
+.landingPageParagraph {
+  width: 416px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #03435f;
+  margin-bottom: 3rem;
+}

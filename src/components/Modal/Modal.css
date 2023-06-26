@@ -1,0 +1,54 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+}
+
+.modalFormWrapper {
+  height: 90vh;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 60vw;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+  /* border: 1px solid red; */
+
+}
+
+.modalFormBtn {
+  padding: 10px 20px;
+  background-color: #eb5757;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+}
+
+.titleInput {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.contentTextArea {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  resize: none;
+  height: 70%;
+}
+
+.modal-btn {
+  margin-top: -15rem;
+}

@@ -1,0 +1,61 @@
+.FindHospital_container {
+  position: relative;
+  margin-left: 20%;
+  overflow-x: hidden;
+  margin-top: 10rem;
+}
+
+.FindHospital_container input[type="text"] {
+  width: 22rem;
+  height: 3rem;
+  border-radius: 5px;
+  border-image-outset: none;
+  border-style: none;
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 8px;
+  outline: none;
+  color: #5c5454;
+  padding-left: 5px;
+  margin-bottom: 3rem;
+}
+.hospital_nearby {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 38px;
+  overflow-x: hidden;
+  width: 95%;
+  margin-bottom: 3rem;
+}
+
+.hospital_address {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  width: 21rem;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.hospital_information {
+  margin-top: 9rem;
+  width: 15rem;
+}
+.hospital_information h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+.hospital_information p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+  text-align: justify;
+}
